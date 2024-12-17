@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.flag {
+    position: relative;
+    width: 300px; /* Width of the flag */
+    height: 200px; /* Height of the flag */
+}
+
+.stripe {
+    height: 33.33%; /* Each stripe takes up one-third of the flag height */
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+.white{
+    background-color: #f0f0f0;
+    max-height: 3%;
+}
+
+.shield-container {
+    position: absolute;
+    top: 50%; /* Center the shield vertically */
+    left: 50%; /* Center the shield horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+}
+
+/*.shield {
+    position: relative;
+    width: 60px;
+    height: 120px;
+    background-color: rgb(255, 252, 252);
+    /*border: 5px solid rgb(250, 248, 248);*/
+   /* border-radius:50%; /* Rounded corners for the shield */
+   /* display: flex;
+   /* justify-content: center;
+    align-items: center;
+    z-index: 1;*/ /* Ensure the shield is above the spears */
+
+/*.shield-inner {
+    width: 20px;
+    height: 50px;
+    background-color: rgb(7, 7, 7);
+    border-radius: 25%; /* Rounded corners for the inner shield */
+    
+
+
+
+/*.shield-inner1{
+        width: 30px;
+        height: 100px;
+        background-color: rgb(16, 15, 15);
+        border-radius: 50%; /* Rounded corners for the inner shield */
+      
+
+/*.spear {
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    background-color: rgb(250, 246, 246);
+    top: 10%; /* Adjusted to align with the shield */
+
+
+/*/*.spear.left {
+    left: -20px; /* Position the left spear */
+
+
+/*.spear.right {
+    right: -20px; /* Position the right spear */
+    .shield {
+        position: absolute;
+        inset: 0;
+        margin: auto;
+      }
+      
+
+
