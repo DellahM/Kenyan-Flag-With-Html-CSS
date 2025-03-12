@@ -1,5 +1,4 @@
 # Kenyan-Flag-With-Html-CSS
-# Kenyan Flag
 
 This project is a simple representation of the Kenyan flag created using HTML and CSS. The flag features the traditional colors and design elements, including the shield and spears, which are significant symbols in Kenyan culture.
 
